@@ -1,0 +1,156 @@
+/*Navigation*/
+
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 10;
+    opacity: 0.3;
+}
+.sidenav:hover{
+    opacity: 0.7;
+}
+.sidenav-list i {
+    font-size: 2em;
+    margin: 20px 0;
+    width: 100px;
+}
+
+.sidenav-list li:first-of-type {
+    color: rgb(255, 128, 9);
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+.logo{
+    width:60%;
+    height: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* HOME */
+
+.home {
+    background-image: url("img/bulb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.intro-banner {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+/* Who am I*/
+
+#who-am-i{
+    line-height: 1.6em;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.text-box{
+    padding: 0 4rem;
+}
+.img-prof{
+    max-height: 50vh !important;
+}
+
+/* code */
+#code{
+    
+    padding-top: 3rem !important;
+    padding-bottom: 3rem;
+}
+
+.fa-code {
+    color: #e54d26
+  }
+  
+  .fa-bold {
+    color: #563d7c;
+  }
+  
+  .fa-css3 {
+    color: #2163af;
+  }
+
+  .fa-react {
+    color: #00d8ff;
+  }
+
+  .fa-php {
+    color: #8892be;
+  }
+
+  .fa-js {
+    color: #f7df1e;
+  }
+
+  .fa-js,
+  .fa-react,
+  .fa-php,
+  .fa-code,
+  .fa-bold,
+  .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+    padding-top: 2em;
+  }
+  
+  
+
+/* GLOBAL */
+
+.container-fluid{
+    padding-right: 0 !important;
+}
+.title-line{
+    background-color: rgba(255, 65, 65,0.5);
+    padding-left:100px;
+}
+.redd {
+    color: rgb(255, 65, 65);
+}
+.grrey{
+    color: rgb(29, 29, 29);
+}
+body {
+    font-family: 'Signika Negative', sans-serif;
+    overflow-x: hidden; 
+    background-color: rgb(29, 29, 29);
+    color: rgb(206, 206, 206);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 128, 9);
+}
+
+a:hover {
+    color: rgb(255, 128, 9);
+    font-size: 1.8rem;
+}
+
+.section{
+    padding-left:100px;
+}
+.section-1{
+   /* width: 100%; */
+    height: 100vh;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
